@@ -1,0 +1,165 @@
+@font-face { font-family: roboto; 
+src: url('./assets/fonts/roboto-regular-webfont.woff2'); 
+}
+@font-face { font-family: roboto_mono; 
+  src: url('./assets/fonts/robotomono-light-webfont.woff2'); 
+}
+
+body {
+  background: #fcfcfc;
+  line-height: 1;
+  min-height: calc(100vh + 2px);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+*, a, h4, h5, h6, p {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-family: roboto,helvetica,sans-serif;
+  line-height: 2;
+  text-decoration: none;
+  outline: none;
+  word-break: break-word;
+}
+
+.scrollbar-measure {
+  width: 100px!important;
+  height: 100px!important;
+  overflow-y: scroll;
+  position: absolute;
+  top: -9999px;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 4px;
+  line-height: 1.5;
+  font-family: roboto_mono,helvetica,sans-serif;
+}
+
+
+header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+
+body {
+  line-height: 1;
+  min-height: calc(100vh + 2px);
+}
+
+html {
+  font-size: 14px;
+}
+
+
+a, a:active, a:focus, input {
+  outline: none;
+}
+
+a {
+  white-space: nowrap;
+  cursor: pointer;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+.has-link {
+  color: rgba(34,34,34,.55);
+}
+p {
+  font-weight: 400;
+}
+h6, p {
+  letter-spacing: 1px;
+}
+
+.normal {
+  text-transform: none;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+h3, h4 {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.marB20 {
+  margin-bottom: 20px;
+}
+button, button:active, button:focus {
+  outline: none;
+}
+button {
+  border: none;
+  border-radius: 0;
+}
+label {
+  font-size: .9rem;
+  line-height: 1;
+  font-weight: 500;
+  font-family: roboto_mono,helvetica,sans-serif;
+}
+
+.has-link>a {
+  text-decoration: none;
+  color: #222;
+  border-bottom: 1px dotted #222;
+}
+
+.unCap {
+  text-transform: none;
+}
+
+h4 {
+  font-weight: 400;
+}
+.frm {
+  font-family: roboto_mono,helvetica,sans-serif;
+}
+input:invalid {
+  box-shadow: none;
+}
+input {
+  box-sizing: border-box;
+  width: 100%;
+}
+input, textarea {
+  padding: 0.5rem 1rem;
+  border: none;
+  color: rgba(34,34,34,.55);
+  margin: 1rem 0;
+  font-size: .9rem;
+  font-weight: 400;
+  border-bottom: 2px solid rgba(0,0,0,.3);
+  -webkit-transition: color .3s,border-color .3s;
+  transition: color .3s,border-color .3s;
+  background: #fff;
+}
