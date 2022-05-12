@@ -51,7 +51,7 @@ return(
                                 </div>
                                 <div class="buttonWrapper">
                                     <button class="saveItemBtn">Save</button>
-                                    <button class="cancelItemBtn">Cancel</button>                                                                       
+                                    <button class="cancelItemBtn"><a href="/trades">Cancel</a></button>                                                                       
                                 </div>
                             </div>
                         </div>

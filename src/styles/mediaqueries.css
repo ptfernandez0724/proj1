@@ -165,4 +165,18 @@
         margin-left: 2rem;
         margin-top: 0!important;
     }
+    .itemPageWrapper {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .itemPageWrapper .itemInfoWrapper {
+        margin-left: 2rem;
+        margin-top: 0;
+    }
+    .itemPageWrapper .reqTradeBtn {
+        margin: 3rem 0 2rem;
+        border: 2px solid #222;
+    }
 }

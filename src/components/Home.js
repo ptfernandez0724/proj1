@@ -1,6 +1,7 @@
 import '../Global.css';
 import '../styles/styles.css';
 import '../styles/mediaqueries.css';
+import '../styles/animation.css';
 import Header from './Header';
 
 export default function Home() {
@@ -11,10 +12,52 @@ export default function Home() {
             <div data-reactroot="" class="wrapper">
             <Header />
                 <span>
-                    <div class="">
+                    <div class=" ">
                     <main class="main">
                         <div class="item">
+                        <a href="/item">
                         <div class="content"></div>
+                        </a>
+                        </div>
+                        <div class="item">
+                        <a href="/item">
+                        <div class="content"></div>
+                        </a>
+                        </div>
+                        <div class="item">
+                        <a href="/item">
+                        <div class="content"></div>
+                        </a>
+                        </div>
+                        <div class="item">
+                        <a href="/item">
+                        <div class="content"></div>
+                        </a>
+                        </div>
+                        <div class="item">
+                        <a href="/item">
+                        <div class="content"></div>
+                        </a>
+                        </div>
+                        <div class="item">
+                        <a href="/item">
+                        <div class="content"></div>
+                        </a>
+                        </div>
+                        <div class="item">
+                        <a href="/item">
+                        <div class="content"></div>
+                        </a>
+                        </div>
+                        <div class="item">
+                        <a href="/item">
+                        <div class="content"></div>
+                        </a>
+                        </div>
+                        <div class="item">
+                        <a href="/item">
+                        <div class="content"></div>
+                        </a>
                         </div>
                     </main>
                 

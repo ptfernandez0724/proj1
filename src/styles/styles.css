@@ -613,3 +613,114 @@ h6, p {
 .addItemWrapper .modal .buttonWrapper button:last-child {
     border-left: 2px solid #f2f2f2;
 }
+.loginWrapper {
+    min-height: 40vh;
+    margin: 1rem auto 2rem;
+}
+.loginWrapper .loginHeading {
+    margin-bottom: 4rem;
+}
+.btnWrapper {
+    margin: 2rem 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.btnWrapper .fbBtn {
+    color: rgba(59,89,152,.9);
+}
+.btnWrapper button {
+    -webkit-box-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+    max-width: 400px;
+    margin: 0 auto 2rem;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    font-size: .8rem;
+    font-weight: 700;
+    background: transparent;
+    border: 2px solid;
+    opacity: .75;
+    text-transform: uppercase;
+}
+.btnWrapper .googleBtn {
+    color: rgba(221,75,57,.9);
+}
+.btnWrapper .twitterBtn {
+    color: rgba(85,172,238,.9);
+}
+.btnWrapper button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.itemPageWrapper {
+    padding: 1rem 0 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.itemPageWrapper .itemImgWrapper {
+    background: #eee;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-height: 50vh;
+}
+.itemPageWrapper .itemInfoWrapper {
+    margin-top: 2rem;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.itemPageWrapper .backLink {
+    font-size: .9rem;
+    color: rgba(34,34,34,.55);
+    cursor: pointer;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    font-weight: 500;
+}
+.itemPageWrapper .backLink span.small svg {
+    -webkit-transform: rotate(
+90deg);
+    transform: rotate(
+90deg);
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    fill: rgba(34,34,34,.55);
+    font-weight: 800;
+}
+.itemPageWrapper .itemName {
+    margin: 1rem 0 0.5rem;
+}
+.itemPageWrapper .itemCost {
+    color: #555;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+.itemPageWrapper .seller {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: rgba(34,34,34,.55);
+}
+.itemPageWrapper .reqTradeBtn {
+    margin: 3rem 0 0;
+    background: #222;
+    color: #fff;
+}

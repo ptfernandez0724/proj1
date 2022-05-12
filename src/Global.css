@@ -163,3 +163,6 @@ input, textarea {
   transition: color .3s,border-color .3s;
   background: #fff;
 }
+.text-center {
+  text-align: center;
+}

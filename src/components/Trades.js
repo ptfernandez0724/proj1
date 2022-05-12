@@ -14,10 +14,12 @@ export default function Trades(){
                     <div class="">
                         <div class="tradesWrapper">
                             <div class="addTradeWrapper">
-                                <a href="/myItems">
+                                <a href="/myitems">
                                     <button class="tradeBtn allItemsBtn">My Items</button>
                                 </a>
+                                <a href="/additem">
                                 <button class="tradeBtn addItemBtn">+ Add Item</button>
+                                </a>
                             </div>
                             <div class="tradesInfoWrapper">
                                 <div class="tradeReqWrapper">
@@ -90,8 +92,8 @@ export default function Trades(){
                     </div>
                     <footer class="footer">
                         <p class="has-link">
-                        "Made by "
-                        <a target="blank" href=" ">Paulo Fernandez</a>
+                        Made by 
+                        <a target="blank" href=" "> Paulo Fernandez</a>
                         </p>
                     </footer>
                     </div>
